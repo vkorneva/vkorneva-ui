@@ -1,0 +1,33 @@
+{
+  "rules": {
+    "block-no-empty": true,
+    "color-named": [
+      "never",
+      {
+        "ignore": [
+          "inside-function"
+        ]
+      }
+    ],
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-semicolon-newline-after": "always",
+    "declaration-block-single-line-max-declarations": 1,
+    "declaration-block-trailing-semicolon": "always",
+    "declaration-colon-newline-after": "always-multi-line",
+    "declaration-colon-space-after": "always-single-line",
+    "declaration-no-important": true,
+    "indentation": 4,
+    "max-nesting-depth": 3,
+    "media-feature-colon-space-after": "always",
+    "media-feature-range-operator-space-after": "always",
+    "media-feature-range-operator-space-before": "always",
+    "no-duplicate-at-import-rules": true,
+    "no-duplicate-selectors": true,
+    "no-missing-end-of-source-newline": true,
+    "no-unknown-animations": true,
+    "property-case": "lower",
+    "selector-list-comma-newline-after": "always",
+    "selector-max-id": 0,
+    "string-quotes": "double"
+  }
+}
