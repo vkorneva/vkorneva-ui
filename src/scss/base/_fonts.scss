@@ -1,1 +1,43 @@
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
 
+@font-face {
+    font-family : "Open Sans";
+    font-display: swap;
+    font-weight : 400;
+    font-style  : normal;
+    src         :
+        url("#{$assets-path}/fonts/open-sans-regular/open-sans-v17-latin_cyrillic-regular.woff2") format("woff2"),
+        url("#{$assets-path}/fonts/open-sans-regular/open-sans-v17-latin_cyrillic-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family : "Open Sans";
+    font-display: swap;
+    font-weight : 600;
+    font-style  : normal;
+    src         :
+        url("#{$assets-path}/fonts/open-sans-semibold/open-sans-v17-latin_cyrillic-600.woff2") format("woff2"),
+        url("#{$assets-path}/fonts/open-sans-semibold/open-sans-v17-latin_cyrillic-600.woff") format("woff");
+}
+
+@font-face {
+    font-family : "Open Sans";
+    font-display: swap;
+    font-weight : 700;
+    font-style  : normal;
+    src         :
+        url("#{$assets-path}/fonts/open-sans-bold/open-sans-v17-latin_cyrillic-700.woff2") format("woff2"),
+        url("#{$assets-path}/fonts/open-sans-bold/open-sans-v17-latin_cyrillic-700.woff") format("woff");
+}
+
+@font-face {
+    font-family : "PT Sans";
+    font-display: swap;
+    font-weight : 400;
+    font-style  : normal;
+    src         :
+        url("#{$assets-path}/fonts/pt-sans-regular/pt-sans-v11-latin_cyrillic-regular.woff2") format("woff2"),
+        url("#{$assets-path}/fonts/pt-sans-regular/pt-sans-v11-latin_cyrillic-regular.woff") format("woff");
+}

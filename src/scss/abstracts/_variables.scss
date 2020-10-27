@@ -1,1 +1,38 @@
+$assets-path         : "../../assets";
+$fa-font-display     : swap;
 
+$font-families       : (
+    icons-solid: "Font Awesome 5 Free",
+    icons-brand : "Font Awesome 5 Brands",
+    base: ("Open Sans", sans-serif),
+    headings: ("PT Sans", sans-serif),
+);
+
+$font-weights        : (
+    normal : 400,
+    semi : 600,
+    bold : 700
+);
+
+$font-sizes          : (
+    small: 11px,
+    base: 13px,
+    large: 15px,
+);
+
+$font-sizes-headings : (
+    h1: 26px,
+    h2: 22px,
+    h3: 20px,
+    h4: 18px,
+    h5: 15px,
+    h6: 13px,
+);
+
+$breakpoints         : (
+    xs: 320px,
+    sm: 480px,
+    md: 720px,
+    lg: 1024px,
+    xl: 1200px,
+);
