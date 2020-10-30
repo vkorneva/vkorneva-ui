@@ -1,0 +1,10 @@
+{
+  "name": "vkorneva-ui",
+  "version": "1.0.0",
+  "repository": "https://github.com/vkorneva/vkorneva-ui.git",
+  "author": "Korneva Viktoria Vadimovna",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1"
+  }
+}
