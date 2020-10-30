@@ -1,0 +1,39 @@
+@function font-families($key) {
+    @if map-has-key($font-families, $key) {
+        @return map-get($font-families, $key);
+    }
+    @warn "Unknown `#{$key}` in $font-families.";
+    @return map-get($font-families, base);
+}
+
+@function font-weights($key) {
+    @if map-has-key($font-weights, $key) {
+        @return map-get($font-weights, $key);
+    }
+    @warn "Unknown `#{$key}` in $font-weights.";
+    @return map-get($font-families, normal);
+}
+
+@function font-sizes($key) {
+    @if map-has-key($font-sizes, $key) {
+        @return map-get($font-sizes, $key);
+    }
+    @warn "Unknown `#{$key}` in $font-sizes.";
+    @return map-get($font-families, base);
+}
+
+@function font-sizes-headings($key) {
+    @if map-has-key($font-sizes-headings, $key) {
+        @return map-get($font-sizes-headings, $key);
+    }
+    @warn "Unknown `#{$key}` in $font-sizes-headings.";
+    @return map-get($font-families, h6);
+}
+
+@function breakpoints($key) {
+    @if map-has-key($breakpoints, $key) {
+        @return map-get($breakpoints, $key);
+    }
+    @warn "Unknown `#{$key}` in $breakpoints.";
+    @return null;
+}

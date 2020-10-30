@@ -1,0 +1,78 @@
+* {
+    box-sizing : border-box;
+
+    ::selection {
+        background-color : lighten($brand, 15%);
+        color            : $snow;
+    }
+}
+
+html,
+body {
+    height : 100%;
+}
+
+.body-kvv {
+    min-width        : 320px;
+    font-family      : font-families(base);
+    font-size        : font-sizes(base);
+    line-height      : 1.5;
+    color            : $coal;
+    background-color : $snow;
+    margin           : 0;
+}
+
+.container-kvv {
+    max-width    : 1200px;
+    position     : relative;
+    margin-left  : auto;
+    margin-right : auto;
+    padding      : 0 15px;
+}
+
+.h1-kvv,
+.h2-kvv,
+.h3-kvv,
+.h4-kvv,
+.h5-kvv,
+.h6-kvv {
+    margin : 0 0 10px;
+}
+
+.h1-kvv,
+.h2-kvv {
+    font-family : font-families(headings);
+    font-weight : font-weights(normal);
+}
+
+.h3-kvv,
+.h4-kvv,
+.h5-kvv,
+.h6-kvv {
+    font-family : font-families(base);
+    font-weight : font-weights(semi);
+}
+
+.h1-kvv {
+    font-size : font-sizes-headings(h1);
+}
+
+.h2-kvv {
+    font-size : font-sizes-headings(h2);
+}
+
+.h3-kvv {
+    font-size : font-sizes-headings(h3);
+}
+
+.h4-kvv {
+    font-size : font-sizes-headings(h4);
+}
+
+.h5-kvv {
+    font-size : font-sizes-headings(h5);
+}
+
+.h6-kvv {
+    font-size : font-sizes-headings(h6);
+}
